@@ -1,0 +1,20 @@
+#history {
+	float: left;
+	margin-left: 90px;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	padding-right: 120px;
+	width: 400px;
+	border: 4px dashed #424040;
+}
+
+#linkhistory li {
+	color: #424040;
+}
+
+#linkhistory {
+	list-style-type: circle;
+	font-size: 1.7em;
+	text-align: left;
+	padding-left: 70px;
+}

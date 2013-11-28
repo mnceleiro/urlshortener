@@ -1,0 +1,47 @@
+#logout {
+	margin-left: 100px;
+}
+
+#chart {
+	float:left;
+	width: 425px;
+	margin-left: 70px;
+}
+
+#chartstats {
+	float:left;
+	width: 325px;
+}
+
+#views {
+	height: 250px;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+#goto {
+	float: left;
+	height: 40px;
+	margin-left: 40px;
+}
+
+.chartimage {
+	padding-left: 0px;
+	height: 280px;
+}
+
+#chart {
+	margin-top: 20px;
+}
+
+.ulstats {
+	font-size: 1.6em;
+}
+
+.screenselect {
+	margin-left: 60px;
+	margin-top: 25px;
+	height: 30px;
+	width: 110px;
+}
+

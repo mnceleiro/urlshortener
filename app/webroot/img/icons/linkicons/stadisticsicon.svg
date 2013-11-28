@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated. 
+You may NOT sub-license, resell, rent, redistribute or otherwise transfer the icon without express written permission from iconmonstr.com -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="512px"
+   height="512px"
+   viewBox="0 0 512 512"
+   enable-background="new 0 0 512 512"
+   xml:space="preserve"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="stadisticsicon.svg"><metadata
+   id="metadata9"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs7" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="697"
+   inkscape:window-height="480"
+   id="namedview5"
+   showgrid="false"
+   inkscape:zoom="0.4609375"
+   inkscape:cx="256"
+   inkscape:cy="256"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg2" />
+
+<path
+   id="pie_chart_2_icon"
+   d="M273.904,135.949v-28.634l47.562-47.561c7.025,2.334,13.884,5.034,20.552,8.08   L273.904,135.949z M395.06,102.827L273.904,223.982v14.104h14.528l120.932-120.932C404.832,112.149,400.058,107.366,395.06,102.827z    M273.904,77.615l24.132-24.132c-7.89-1.618-15.941-2.794-24.132-3.483V77.615z M458.588,214.299l-23.787,23.787H462   C461.32,230.015,460.169,222.079,458.588,214.299z M452.347,190.842c-2.325-7.036-5.017-13.903-8.055-20.581l-67.825,67.825h28.635   L452.347,190.842z M434.115,150.738c-3.516-5.944-7.315-11.702-11.391-17.244L318.133,238.086h28.635L434.115,150.738z    M378.741,89.445c-5.534-4.083-11.286-7.886-17.225-11.409l-87.612,87.613v28.633L378.741,89.445z M238.833,273.157V50   C133.064,58.899,50,147.549,50,255.617C50,369.596,142.396,462,256.373,462C364.441,462,453.091,378.926,462,273.157H238.833z"
+   style="fill:#303030;fill-opacity:1" />
+
+</svg>

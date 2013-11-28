@@ -1,0 +1,941 @@
+2013-11-19 11:38:00 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/app/Controller/AppController.php, line 2]
+2013-11-19 11:38:00 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 2, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 2, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-21 17:09:32 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /index.html
+Stack Trace:
+#0 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-21 17:09:37 Error: [MissingControllerException] Controller class Index.htmadasdasController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmadasdasController',
+  'plugin' => NULL,
+)
+Request URL: /index.htmadasdas
+Stack Trace:
+#0 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-25 18:15:05 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/app/Controller/AppController.php, line 2]
+2013-11-25 18:15:05 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 2, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 2, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-25 18:31:11 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /Posts
+Stack Trace:
+#0 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-25 18:31:33 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /Posts
+Stack Trace:
+#0 /var/www/lib/Cake/Model/Model.php(3310): Model->setSource('posts')
+#1 /var/www/lib/Cake/Model/Model.php(2750): Model->getDataSource()
+#2 /var/www/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
+#3 /var/www/app/Controller/PostsController.php(6): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 /var/www/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-11-25 18:32:02 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /Posts
+Stack Trace:
+#0 /var/www/lib/Cake/Model/Model.php(3310): Model->setSource('posts')
+#1 /var/www/lib/Cake/Model/Model.php(2750): Model->getDataSource()
+#2 /var/www/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
+#3 /var/www/app/Controller/PostsController.php(6): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 /var/www/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-11-25 18:32:04 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /Posts
+Stack Trace:
+#0 /var/www/lib/Cake/Model/Model.php(3310): Model->setSource('posts')
+#1 /var/www/lib/Cake/Model/Model.php(2750): Model->getDataSource()
+#2 /var/www/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
+#3 /var/www/app/Controller/PostsController.php(6): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 /var/www/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-11-25 18:33:57 Error: [MissingViewException] View file "/var/www/app/View/Posts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/app/View/Posts/index.ctp',
+)
+Request URL: /Posts
+Stack Trace:
+#0 /var/www/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /var/www/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-25 18:37:38 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /posts/view/1
+Stack Trace:
+#0 /var/www/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-25 18:51:18 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/app/Controller/PostsController.php, line 19]
+2013-11-25 18:51:18 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/app/Co...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/app/Co...', 19, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/app/Co...', 19, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-25 18:52:07 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/app/Controller/PostsController.php, line 20]
+2013-11-25 18:52:07 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/app/Co...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/app/Co...', 20, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/app/Co...', 20, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-25 18:52:14 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/app/Controller/PostsController.php, line 20]
+2013-11-25 18:52:14 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/app/Co...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/app/Co...', 20, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/app/Co...', 20, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-25 19:01:57 Error: Fatal Error (4): syntax error, unexpected ';', expecting T_FUNCTION in [/var/www/app/Model/Post.php, line 13]
+2013-11-25 19:01:57 Error: [FatalErrorException] syntax error, unexpected ';', expecting T_FUNCTION
+Request URL: /Posts
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Mo...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Mo...', 13, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Mo...', 13, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-25 19:20:48 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/app/Controller/PostsController.php, line 34]
+2013-11-25 19:20:48 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /posts/edit/2
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 34, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 34, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 20:58:31 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/app/View/Layouts/default.ctp, line 18]
+2013-11-26 20:58:31 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 20:58:32 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/app/View/Layouts/default.ctp, line 18]
+2013-11-26 20:58:32 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 20:58:33 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/app/View/Layouts/default.ctp, line 18]
+2013-11-26 20:58:33 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 20:58:37 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/app/View/Layouts/default.ctp, line 18]
+2013-11-26 20:58:37 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 20:58:38 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/app/View/Layouts/default.ctp, line 18]
+2013-11-26 20:58:39 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 20:58:39 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/app/View/Layouts/default.ctp, line 18]
+2013-11-26 20:58:39 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 20:58:43 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/app/View/Layouts/default.ctp, line 18]
+2013-11-26 20:58:43 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 20:58:45 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/app/View/Layouts/default.ctp, line 18]
+2013-11-26 20:58:45 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 20:58:46 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/app/View/Layouts/default.ctp, line 18]
+2013-11-26 20:58:46 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 18, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:11:26 Error: Fatal Error (4): syntax error, unexpected T_CLASS, expecting ')' in [/var/www/app/View/Layouts/default.ctp, line 41]
+2013-11-26 21:11:26 Error: [FatalErrorException] syntax error, unexpected T_CLASS, expecting ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:11:40 Error: Fatal Error (4): syntax error, unexpected T_CLASS, expecting ')' in [/var/www/app/View/Layouts/default.ctp, line 41]
+2013-11-26 21:11:40 Error: [FatalErrorException] syntax error, unexpected T_CLASS, expecting ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:11:42 Error: Fatal Error (4): syntax error, unexpected T_CLASS, expecting ')' in [/var/www/app/View/Layouts/default.ctp, line 41]
+2013-11-26 21:11:42 Error: [FatalErrorException] syntax error, unexpected T_CLASS, expecting ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:11:43 Error: Fatal Error (4): syntax error, unexpected T_CLASS, expecting ')' in [/var/www/app/View/Layouts/default.ctp, line 41]
+2013-11-26 21:11:43 Error: [FatalErrorException] syntax error, unexpected T_CLASS, expecting ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:15:57 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/app/View/Layouts/default.ctp, line 41]
+2013-11-26 21:15:57 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:16:12 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/app/View/Layouts/default.ctp, line 41]
+2013-11-26 21:16:12 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:16:15 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/app/View/Layouts/default.ctp, line 41]
+2013-11-26 21:16:15 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:16:16 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/app/View/Layouts/default.ctp, line 41]
+2013-11-26 21:16:16 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 41, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:31:58 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ',' or ';' in [/var/www/app/View/Layouts/default.ctp, line 58]
+2013-11-26 21:31:58 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 58, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 58, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:45:20 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [/var/www/app/View/Layouts/default.ctp, line 30]
+2013-11-26 21:45:20 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 30, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 30, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:45:22 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [/var/www/app/View/Layouts/default.ctp, line 30]
+2013-11-26 21:45:22 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 30, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 30, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:47:49 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [/var/www/app/View/Layouts/default.ctp, line 30]
+2013-11-26 21:47:49 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 30, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 30, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:47:58 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [/var/www/app/View/Layouts/default.ctp, line 31]
+2013-11-26 21:47:58 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 31, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 31, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:48:05 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [/var/www/app/View/Layouts/default.ctp, line 31]
+2013-11-26 21:48:05 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 31, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 31, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:48:07 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [/var/www/app/View/Layouts/default.ctp, line 31]
+2013-11-26 21:48:07 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 31, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 31, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:48:08 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [/var/www/app/View/Layouts/default.ctp, line 31]
+2013-11-26 21:48:08 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 31, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 31, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-26 21:48:20 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [/var/www/app/View/Layouts/default.ctp, line 30]
+2013-11-26 21:48:20 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 30, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 30, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-27 20:24:05 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting ',' or ';' in [/var/www/app/View/Layouts/default.ctp, line 32]
+2013-11-27 20:24:05 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 32, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 32, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-27 20:27:51 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ',' or ';' in [/var/www/app/View/Layouts/default.ctp, line 33]
+2013-11-27 20:27:51 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 33, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 33, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-27 20:27:52 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ',' or ';' in [/var/www/app/View/Layouts/default.ctp, line 33]
+2013-11-27 20:27:52 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 33, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 33, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-27 20:27:53 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ',' or ';' in [/var/www/app/View/Layouts/default.ctp, line 33]
+2013-11-27 20:27:53 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 33, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 33, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-27 20:33:31 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/app/View/Layouts/default.ctp, line 32]
+2013-11-27 20:33:31 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 32, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 32, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-27 20:33:32 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/app/View/Layouts/default.ctp, line 32]
+2013-11-27 20:33:32 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 32, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 32, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-27 20:34:00 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ',' or ';' in [/var/www/app/View/Layouts/default.ctp, line 33]
+2013-11-27 20:34:00 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 33, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 33, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 12:57:00 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 12:57:00 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 12:57:49 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 12:57:49 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 12:57:50 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 12:57:50 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 12:57:53 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 12:57:53 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 12:58:19 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 12:58:19 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 12:58:19 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 12:58:19 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 12:59:33 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 12:59:33 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:02:36 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:02:36 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:02:38 Error: [MissingControllerException] Controller class LinkController could not be found.
+Exception Attributes: array (
+  'class' => 'LinkController',
+  'plugin' => NULL,
+)
+Request URL: /Link
+Stack Trace:
+#0 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 13:02:52 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:02:52 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Links/index.ctp
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:03:28 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:03:28 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:03:31 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:03:31 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:04:09 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:04:09 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:04:19 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:04:19 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:07:51 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:07:51 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:07:53 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:07:53 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:07:54 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:07:54 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:07:54 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:07:54 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:08:20 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:08:20 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links/index.ctp
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:09:59 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:09:59 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links/index.ctp
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:09:59 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:09:59 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links/index.ctp
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:09:59 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:09:59 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links/index.ctp
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:10:03 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:10:03 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links/
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:10:13 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:10:13 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links/
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:11:23 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 16]
+2013-11-28 13:11:23 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links/
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:14:03 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 16]
+2013-11-28 13:14:03 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links/
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:14:06 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 16]
+2013-11-28 13:14:06 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links/
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:15:55 Error: [MissingControllerException] Controller class LinksController could not be found.
+Exception Attributes: array (
+  'class' => 'LinksController',
+  'plugin' => NULL,
+)
+Request URL: /links
+Stack Trace:
+#0 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 13:17:16 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:17:16 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:17:35 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 17]
+2013-11-28 13:17:35 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 17, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:22:15 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 16]
+2013-11-28 13:22:15 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Links/index.ctp
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:22:18 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 16]
+2013-11-28 13:22:18 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Links/index.ctp
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:24:28 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 16]
+2013-11-28 13:24:28 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:24:58 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/app/Controller/LinksController.php, line 16]
+2013-11-28 13:24:58 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 13:30:30 Error: [MissingControllerException] Controller class LController could not be found.
+Exception Attributes: array (
+  'class' => 'LController',
+  'plugin' => NULL,
+)
+Request URL: /l
+Stack Trace:
+#0 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 13:30:32 Error: [MissingControllerException] Controller class LController could not be found.
+Exception Attributes: array (
+  'class' => 'LController',
+  'plugin' => NULL,
+)
+Request URL: /l
+Stack Trace:
+#0 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 13:35:19 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/app/View/Layouts/default.ctp, line 3]
+2013-11-28 13:35:19 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 3, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 3, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 16:26:25 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/app/View/Layouts/default.ctp, line 7]
+2013-11-28 16:26:25 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 7, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 7, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 17:40:52 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/app/View/Layouts/default.ctp, line 42]
+2013-11-28 17:40:52 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /Links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 42, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 42, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 17:41:01 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/app/View/Layouts/default.ctp, line 42]
+2013-11-28 17:41:01 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /Links
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Vi...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Vi...', 42, Array)
+#2 /var/www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Vi...', 42, Array)
+#3 /var/www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 17:46:48 Error: [MissingActionException] Action LinksController::showHistory() could not be found.
+Exception Attributes: array (
+  'controller' => 'LinksController',
+  'action' => 'showHistory',
+)
+Request URL: /Links/showHistory
+Stack Trace:
+#0 /var/www/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinksController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-28 17:47:20 Error: [MissingViewException] View file "/var/www/app/View/Links/show_history.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/app/View/Links/show_history.ctp',
+)
+Request URL: /Links/showHistory
+Stack Trace:
+#0 /var/www/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /var/www/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinksController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-28 17:55:44 Error: [MissingHelperException] Helper class linksHelper could not be found.
+Exception Attributes: array (
+  'class' => 'linksHelper',
+  'plugin' => false,
+)
+Request URL: /Links/showHistory
+Stack Trace:
+#0 /var/www/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('links')
+#1 /var/www/lib/Cake/View/View.php(820): HelperCollection->__isset('links')
+#2 /var/www/app/View/Links/show_history.ctp(2): View->__get('links')
+#3 /var/www/lib/Cake/View/View.php(931): include('/var/www/app/Vi...')
+#4 /var/www/lib/Cake/View/View.php(893): View->_evaluate('/var/www/app/Vi...', Array)
+#5 /var/www/lib/Cake/View/View.php(462): View->_render('/var/www/app/Vi...')
+#6 /var/www/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#7 /var/www/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinksController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

@@ -1,0 +1,174 @@
+#container {    
+	width: 960px;
+	margin-left: auto;  /* auto centra el contenido */
+	margin-right: auto;
+    margin-top: 80px;
+	background: #e6583a;
+    border: 1px solid black;
+    position: relative;
+}
+	
+#header {
+    position: relative;
+	background: #424040;
+	color: white;
+	text-align:center;
+	height: 100px;
+	padding-top:5px;
+	padding-bottom:0px;
+}
+
+#body {
+	background: #e6583a;
+	/*height: 500px;*/
+	padding-top: 5px;
+}
+	
+#shortener {
+	float: left;
+	width: 700px;
+	height: 115px;
+}
+
+#signmenu {
+    padding-top: 20px;
+    width: 210px;
+    height: 150px;
+    float: right;
+    padding-right: 20px;
+	/*border: 1px solid black;*/
+}
+
+#content {
+    float: left;
+    height: 355px;
+    width: 720px;
+    /*border: 1px solid black;*/
+}
+
+#content div {
+    float: left;
+    text-align: center;
+}
+
+#share {
+    float: left;
+    text-align: center;
+    }
+
+#share p {
+    font-size: 2em;
+    color: #424040;
+}
+
+#footer {
+    clear: both;    /* Para el footer siempre, si ponemos esto no se mete en otras historias */
+    height: 55px;
+    background-color: white;
+    
+    border-top: 6px dashed #424040;
+    border-bottom: 0.5px solid black;
+
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+#footer p {
+    font-size: 1.6em;
+    color: #424040;
+}
+
+#titlefooter {
+    float: right;
+    height: 40px;
+    width: 100px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+    
+#footimage {
+    position: absolute;
+    right: 30px;
+    bottom: 8px;
+}
+
+form.urlshortener {
+    margin-top: 30px;   /* no hace efecto */
+    width: 20px;
+    height: 40px;
+}
+
+.shortener {
+    width: 420px;
+    height: 21px;
+    margin-top: 70px;
+    margin-left: 49px;
+    margin-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    font-size: 1.2em;
+    color: #424040;
+    }
+    
+.submit {
+    width: 95px;
+    height: 35px;
+    margin: 10px;
+    font-size: 1.1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+
+/*    
+.inputsidebar {
+    width: 100px;
+}
+*/
+
+.shareimage {
+    width: 75px;
+    height: 75px;
+    padding-top: 140px;
+    padding-left: 15px;
+}
+
+p {
+    font-size: 12pt; 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+h1 {    /* Titulo de la pagina */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+img#footscissors {
+    position: absolute;
+    left: 10px;
+    top:550px;
+    bottom: 275px;
+    right: 0px; 
+
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+img#headscissors {
+    position: absolute;
+    top:35px;
+    right: 425px; 
+
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
