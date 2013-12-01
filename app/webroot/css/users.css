@@ -1,0 +1,29 @@
+.users {
+	margin-left: 150px;
+	margin-top: 50px;
+	padding: 40px;
+	width: 300px;
+	display: block;
+}
+
+fieldset {
+	padding: 1em;
+	font:80%/1 sans-serif;
+	border:2px solid #424040
+  }
+label {
+	float: left;
+	width: 25%;
+	margin-right: 0.5em;
+	padding-top: 0.2em;
+	text-align: right;
+	font-weight: bold;
+  }
+
+legend {
+  padding: 0.2em 0.5em;
+  border:2px solid #424040;
+  color:#424040;
+  font-size:90%;
+  text-align:right;
+  }

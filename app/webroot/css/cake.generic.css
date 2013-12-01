@@ -39,14 +39,14 @@
 	/*border: 1px solid black;*/
 }
 
-#content {
+#contents {
     float: left;
     height: 355px;
     width: 720px;
     /*border: 1px solid black;*/
 }
 
-#content div {
+#contents div {
     float: left;
     text-align: center;
 }
@@ -171,4 +171,8 @@ img#headscissors {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#url-rewriting-warning {
+    display:none;
 }

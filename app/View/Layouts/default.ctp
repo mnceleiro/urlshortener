@@ -5,10 +5,6 @@
 	<title>Short.ly - Acortador de enlaces</title>
 	<?php
 	echo $this->Html->css('cake.generic');
-	echo $this->Html->css('index.css');
-	// echo $this->fetch('meta');
-	// echo $this->fetch('css');
-	// echo $this->fetch('script');
 	?>
 </head>
 <body>
@@ -20,39 +16,30 @@
 		</div>
 		<div id="body">
 			<div id="shortener">
-			<!--	<form id="urlshortener" action="/">
-				    <p>
-				    	<input type="text" name="largeurl" value="Introduce tu link aqui..." class="shortener"></input>
-					    <input type="submit" name="Submit" value="short it!" class="submit"></input>
-					</p> 
-				</form>
-			-->
 				<?php
 					echo "<p>";
 					echo $this->Form->create("short");
 					echo $this->Form->input(
-						'', array('type' => 'text', 'value' => 'Escribe tu enlace aquí', 
-							'class' => 'shortener', 'label' => false, 'div'=>false)
+						'add', array('type' => 'text', 'value' => 'Escribe tu enlace aquí', 
+							'class' => 'shortener', 'label' => false, 'div' => false)
 						);
-					echo $this->Form->submit('Short it!', array('label' => false, 'div' => false, 'value' => 'ShortIt!', 'class' => 'submit', 'inline' => 'true'));
+					echo $this->Form->submit('Short it!', array('label' => false, 'div' => false, 'value' => 'ShortIt!', 'class' => 'submit', 'inline' => 'true', 'controller' => 'links', 'action' => 'add'));
 					echo "</p>";
 				?>
 			</div>
-			<div id="signmenu">
+			<div id="signmenu">		
 				<div id="login">
-			    	<?php echo $this->Html->image('icons/loginicons/login.svg', array('alt' => 'Login')) ?>
+			    	<?php echo $this->Html->link($this->Html->image('icons/loginicons/login.svg', array('alt' => 'Login')), array('controller' => 'users', 'action' => 'login'), array('escape' => false)); ?>
 			    </div>
 			    <div id="registrarse">
-			    	<?php echo $this->Html->image('icons/loginicons/register.svg', array('alt' => 'registrarse')) ?>
-			    </div>
+			    	<?php echo $this->Html->link($this->Html->image("icons/loginicons/register.svg", array("alt" => "registrarse")), array('controller' => 'users', 'action' => 'add'), array('escape' => false)); ?>
+			    </div> 
 			</div>	
-			<div id="content">
+			<div id="contents">
 				<?php echo $this->Session->flash(); ?>
 				<?php echo $this->fetch('content'); ?>
 			</div>
 	        <div id="share">
-	            <!-- <p><img class="shareimage" src="icons/shareicons/facebook.svg" alt="share on facebook"/> -->
-	            <!-- <img class="shareimage" src="icons/shareicons/twitter.svg" alt="share on twitter"/><br /> -->
 	            <p>
 	            <?php
 	            echo $this->Html->image('icons/shareicons/facebook.svg', array('alt' => 'Share on facebook!', 'class' => 'shareimage'));
@@ -62,12 +49,9 @@
 	            síguenos</p>
 	        </div>
 	        <div id="footer">
-	        	<!-- <img id="footscissors" src="icons/generalicons/footscissors.svg" alt="footscissors" /> -->
-	        	
 	        	<?php echo $this->Html->image('icons/generalicons/footscissors.svg', array('alt' => 'Footer scissors', 'id' => 'footscissors')) ?>
 	            <p>ayuda - contacto - desarrolladores - about us - facebook - twitter</p>
 	            <div id="titlefooter">
-	            	<!-- <img id="footimage" src="icons/generalicons/footimage.svg" alt="scissors" /> -->
 	            	<?php echo $this->Html->image('icons/generalicons/footimage.svg', array('alt' => 'Footer image', 'id' => 'footimage')) ?>
 	            </div>
 	        </div>
